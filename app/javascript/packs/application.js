@@ -1,5 +1,8 @@
 import Vue from 'vue'
-import App from '../components/app.vue'
+import App from '../components/App.vue'
+import Message from '../components/Message.vue'
+
+Vue.component('app-message',Message)
 
 document.addEventListener('DOMContentLoaded', () => {
     const el = document.body.appendChild(document.createElement('application'))

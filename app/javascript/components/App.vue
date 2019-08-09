@@ -1,6 +1,6 @@
 <template>
   <div id='app'>
-    <p>{{ message }}</p>
+    <app-message></app-message>
   </div>
 </template>
 
@@ -8,7 +8,6 @@
   export default {
     data: function () {
       return {
-        message: "Welcome to my angry butt!"
       }
     }
   }
@@ -17,6 +16,6 @@
 <style scoped>
   p {
     font-size: 2em;
-    text-align: center;
+    text-align: left;
   }
 </style>
