@@ -17,7 +17,7 @@
 
 <style scoped>
     p {
-        font-size: 2em;
+        font-size: 1em;
         text-align: left;
     }
 </style>
