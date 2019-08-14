@@ -15,8 +15,8 @@
         name: 'Contact',
         data(){
             return {
-                email: /*put your email*/,
-                web: /*put your site url*/
+                email: 'shdm2012@gmail.com',
+                web: 'vk.com'
             }
         }
     }

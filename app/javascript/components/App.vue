@@ -1,11 +1,12 @@
 <template>
-  <div id='app'>
-    <app-message></app-message>
+  <div>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
   export default {
+    name: 'App',
     data: function () {
       return {
       }
